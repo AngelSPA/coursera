@@ -1,0 +1,103 @@
+
+h1 
+{
+	text-align: center;
+}
+
+* 
+{
+	box-sizing: border-box;
+}
+
+p 
+{
+	background-color: #808080;
+	margin-right: auto;
+  	margin-left: auto;
+  	border: 1px solid black;
+  	width: 95%;
+  	padding-top: 30px;
+}
+
+.row 
+{
+	width: 100%;
+}
+
+#title1
+{
+	position: absolute;
+	width: 100px;
+	text-align: right;
+	background-color: yellow;
+	padding-top: 0px;
+	padding-right: 5px;
+	right: 20px;
+}
+
+#title2
+{
+	position: absolute;
+	width: 100px;
+	text-align: right;
+	background-color: white;
+	padding-top: 0px;
+	padding-right: 5px;
+	right: 20px;
+}
+
+#title3
+{
+	position: absolute;
+	width: 100px;
+	text-align: right;
+	background-color: orange;
+	padding-top: 0px;
+	padding-right: 5px;
+	right: 20px;
+}
+
+.sec1, .sec2, .sec3
+{
+	position: relative;
+}
+
+/* Desktop (large devices) */
+@media (min-width: 992px) 
+{
+ 	.sec1, .sec2, .sec3 
+ 	{
+ 		position: relative;
+    	float: left;
+    	width: 33%;
+  	}
+}  
+
+/* Tablet (medium devices) */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	.sec1, .sec2
+ 	{
+    	float: left;
+    	width: 50%;
+    	padding: 10px;
+  	}
+
+  	.sec3
+  	{
+  		float: left;
+  		width: 100%;
+  	}
+
+}
+
+/* Mobile (small devices) */
+@media (max-width: 767px) 
+{
+ 	.sec1, .sec2, .sec3 
+ 	{
+    	float: left;
+    	width: 100%;
+    	padding: 10px;
+  	}
+}  
