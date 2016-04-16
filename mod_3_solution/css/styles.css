@@ -1,0 +1,15 @@
+
+#collapsable-nav
+{
+  text-align: center;
+}
+
+#text, #header-nav
+{
+  background-color: orange;
+}
+
+#text
+{
+  padding: 20px;
+}
